@@ -1,0 +1,5 @@
+package com.example.calculatorapp.domains.calculator.internals.errors
+
+import com.example.calculatorapp.constants.CalculatorConstants.Companion.NOT_VALID_EXPRESSION_EXCEPTION_MESSAGE
+
+class NotValidExpressionException : Exception(NOT_VALID_EXPRESSION_EXCEPTION_MESSAGE)
